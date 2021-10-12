@@ -28,7 +28,7 @@ export default function SignIn() {
           colorScheme="pink"
           size="lg"
         >
-          Entrar
+          Login
         </Button>
       </Flex>
     </Flex>

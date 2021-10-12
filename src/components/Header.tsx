@@ -19,8 +19,7 @@ export function Header() {
         letterSpacing="tight"
         w="64"
       >
-        My Dashboard
-        <Text as="span" ml="1" color="pink.500">.</Text>
+        My Dashboard<Text as="span" ml="1" color="pink.500">.</Text>
       </Text>
 
       <Flex
@@ -39,7 +38,7 @@ export function Header() {
         <Input
           color="gray.50"
           variant="unstyled"
-          placeholder="Buscar na plataforma"
+          placeholder="Search in the plataform"
           px="4"
           mr="4"
           _placeholder={{
