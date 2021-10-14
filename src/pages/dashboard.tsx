@@ -80,13 +80,22 @@ export default function Dashboard() {
           minChildWidth="320px"
           align="flex-start"
         >
-          <Box p="8" bg="gray.800" borderRadius={8}>
+          <Box
+            p={["6", "8"]}
+            bg="gray.800"
+            borderRadius={8}
+          >
             <Text fontSize="lg" mb="4">
               Subscribers of the week
             </Text>
             <Chart type="area" height={160} options={options} series={series} />
           </Box>
-          <Box p="8" bg="gray.800" borderRadius={8} pb="4">
+          <Box
+            p={["6", "8"]}
+            bg="gray.800"
+            borderRadius={8}
+            pb="4"
+          >
             <Text fontSize="lg" mb="4">
               Open rate
             </Text>
