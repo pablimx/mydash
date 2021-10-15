@@ -17,6 +17,7 @@
     "@hookform/resolvers": "^2.8.2",
     "@types/faker": "^5.5.8",
     "apexcharts": "^3.29.0",
+    "axios": "^0.23.0",
     "commitizen": "4.2.4",
     "faker": "^5.5.3",
     "framer-motion": "^4.1.17",
